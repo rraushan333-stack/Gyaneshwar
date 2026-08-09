@@ -1,0 +1,167 @@
+.testimonials-section {
+  background: #f4f0e8;
+
+  padding: 90px 0 120px;
+}
+
+.testimonial-heading {
+  text-align: center;
+
+  margin-bottom: 75px;
+}
+
+.testimonial-heading p {
+  margin: 0 0 28px;
+
+  color: #987951;
+
+  font-size: 10px;
+
+  letter-spacing: 5px;
+}
+
+.testimonial-heading h2 {
+  margin: 0;
+
+  color: #292725;
+
+  font-family: Georgia, serif;
+
+  font-size: clamp(55px, 5vw, 75px);
+
+  font-style: italic;
+
+  font-weight: 400;
+
+  letter-spacing: -3px;
+}
+
+/* Cards */
+
+.testimonial-grid {
+  width: calc(100% - 80px);
+  max-width: 1270px;
+
+  margin: auto;
+
+  display: grid;
+
+  grid-template-columns: repeat(3, 1fr);
+
+  gap: 25px;
+}
+
+.testimonial-card {
+  min-height: 380px;
+
+  background: #fbfaf6;
+
+  border: 1px solid #e3ddd3;
+
+  border-radius: 28px;
+
+  padding: 38px 40px;
+
+  box-sizing: border-box;
+
+  display: flex;
+
+  flex-direction: column;
+}
+
+.stars {
+  color: #997a53;
+
+  letter-spacing: 3px;
+
+  font-size: 13px;
+
+  margin-bottom: 27px;
+}
+
+.testimonial-text {
+  margin: 0;
+
+  color: #706a63;
+
+  font-family: Georgia, serif;
+
+  font-size: 17px;
+
+  font-style: italic;
+
+  line-height: 1.7;
+}
+
+.testimonial-user {
+  border-top: 1px solid #e1dbd2;
+
+  margin-top: auto;
+
+  padding-top: 22px;
+
+  display: flex;
+
+  align-items: center;
+
+  gap: 14px;
+}
+
+.user-avatar {
+  width: 40px;
+  height: 40px;
+
+  border-radius: 50%;
+
+  background: #eee8dd;
+
+  color: #96784f;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  font-size: 11px;
+}
+
+.testimonial-user strong {
+  font-size: 12px;
+
+  color: #292725;
+}
+
+/* Mobile */
+
+@media (max-width: 800px) {
+  .testimonial-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .testimonial-card {
+    min-height: 320px;
+  }
+}
+
+@media (max-width: 700px) {
+  .testimonials-section {
+    padding: 70px 0;
+  }
+
+  .testimonial-heading {
+    margin-bottom: 45px;
+  }
+
+  .testimonial-heading h2 {
+    font-size: 48px;
+  }
+
+  .testimonial-grid {
+    width: calc(100% - 30px);
+  }
+
+  .testimonial-card {
+    padding: 30px;
+  }
+}

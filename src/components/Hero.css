@@ -1,0 +1,732 @@
+/* =========================
+   HERO
+========================= */
+
+.hero {
+  position: relative;
+
+  min-height: 100vh;
+
+  overflow: hidden;
+
+  background: #f7f3eb;
+
+  padding-top: 92px;
+
+  box-sizing: border-box;
+}
+
+/* =========================
+   DECORATIVE CIRCLES
+========================= */
+
+.hero-circle {
+  position: absolute;
+
+  border: 1px solid rgba(80, 70, 60, 0.08);
+
+  border-radius: 50%;
+
+  pointer-events: none;
+}
+
+.circle-one {
+  width: 760px;
+  height: 760px;
+
+  top: -410px;
+  left: 390px;
+}
+
+.circle-two {
+  width: 530px;
+  height: 530px;
+
+  top: 125px;
+  left: 230px;
+}
+
+/* =========================
+   CONTAINER
+========================= */
+
+.hero-container {
+  width: calc(100% - 76px);
+
+  max-width: 1320px;
+
+  min-height: 520px;
+
+  margin: 0 auto;
+
+  display: grid;
+
+  grid-template-columns: 49% 51%;
+
+  align-items: center;
+
+  position: relative;
+
+  z-index: 2;
+}
+
+/* =========================
+   LEFT CONTENT
+========================= */
+
+.hero-content {
+  padding-top: 15px;
+
+  position: relative;
+
+  z-index: 3;
+}
+
+.hero-eyebrow {
+  margin: 0 0 36px;
+
+  color: #987951;
+
+  font-family: Arial, sans-serif;
+
+  font-size: 10px;
+
+  font-weight: 500;
+
+  letter-spacing: 5px;
+
+  text-transform: uppercase;
+}
+
+/* =========================
+   HEADING
+========================= */
+
+.hero h1 {
+  margin: 0;
+
+  color: #292725;
+
+  font-family: Georgia, "Times New Roman", serif;
+
+  font-size: clamp(62px, 5.5vw, 88px);
+
+  line-height: 0.91;
+
+  letter-spacing: -4px;
+
+  font-weight: 400;
+}
+
+.hero h1 span {
+  color: #997a53;
+
+  font-style: italic;
+
+  font-size: 0.94em;
+}
+
+/* =========================
+   DESCRIPTION
+========================= */
+
+.hero-description {
+  width: 430px;
+  max-width: 90%;
+
+  margin: 43px 0 0;
+
+  color: #68635d;
+
+  font-family: Arial, sans-serif;
+
+  font-size: 16px;
+
+  line-height: 1.8;
+}
+
+/* =========================
+   ACTIONS
+========================= */
+
+.hero-actions {
+  display: flex;
+
+  align-items: center;
+
+  gap: 21px;
+
+  margin-top: 48px;
+}
+
+.admission-btn {
+  height: 51px;
+
+  padding: 0 24px;
+
+  display: flex;
+
+  align-items: center;
+
+  gap: 20px;
+
+  border-radius: 30px;
+
+  background: #292725;
+
+  color: white;
+
+  text-decoration: none;
+
+  font-family: Arial, sans-serif;
+
+  font-size: 13px;
+
+  font-weight: 600;
+
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.13);
+
+  transition: 0.25s ease;
+}
+
+.admission-btn:hover {
+  transform: translateY(-2px);
+
+  background: #1f1d1b;
+}
+
+.admission-btn .arrow {
+  font-size: 19px;
+
+  font-weight: 300;
+}
+
+.story-link {
+  height: 40px;
+
+  display: flex;
+
+  align-items: center;
+
+  gap: 13px;
+
+  color: #3f3b37;
+
+  text-decoration: none;
+
+  font-family: Arial, sans-serif;
+
+  font-size: 13px;
+
+  border-bottom: 1px solid #aaa39a;
+}
+
+.story-link span {
+  font-size: 17px;
+}
+
+/* =========================
+   RIGHT IMAGE
+========================= */
+
+.hero-visual {
+  position: relative;
+
+  width: 100%;
+
+  padding: 25px 10px 25px 25px;
+
+  z-index: 2;
+}
+
+.hero-image {
+  display: block;
+
+  width: 100%;
+
+  height: 465px;
+
+  object-fit: cover;
+
+  border-radius: 28px;
+
+  transform: rotate(-1.8deg);
+
+  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.08);
+}
+
+/* =========================
+   ACCREDITATION
+========================= */
+
+.accreditation-card {
+  position: absolute;
+
+  top: 47px;
+
+  right: -5px;
+
+  width: 119px;
+  height: 90px;
+
+  border-radius: 14px;
+
+  background: #2c2a28;
+
+  color: white;
+
+  padding: 18px;
+
+  box-sizing: border-box;
+
+  display: flex;
+
+  flex-direction: column;
+
+  justify-content: center;
+
+  z-index: 5;
+
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12);
+}
+
+.accreditation-card strong {
+  font-family: Georgia, serif;
+
+  font-size: 27px;
+
+  font-weight: 400;
+
+  line-height: 1;
+}
+
+.accreditation-card span {
+  margin-top: 9px;
+
+  font-family: Arial, sans-serif;
+
+  font-size: 8px;
+
+  color: #ddd8d1;
+
+  letter-spacing: 0.2px;
+}
+
+/* =========================
+   AWARD CARD
+========================= */
+
+.award-card {
+  position: absolute;
+
+  bottom: 5px;
+
+  left: 0;
+
+  min-width: 165px;
+
+  padding: 13px 17px;
+
+  display: flex;
+
+  align-items: center;
+
+  gap: 11px;
+
+  background: #fffdf8;
+
+  border-radius: 12px;
+
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.13);
+
+  z-index: 6;
+}
+
+.award-icon {
+  width: 31px;
+  height: 31px;
+
+  flex-shrink: 0;
+
+  border-radius: 50%;
+
+  background: #f1ece2;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  color: #987951;
+
+  font-size: 15px;
+}
+
+.award-content {
+  display: flex;
+
+  flex-direction: column;
+}
+
+.award-content strong {
+  color: #625c54;
+
+  font-family: Georgia, serif;
+
+  font-size: 10px;
+}
+
+.award-content span {
+  margin-top: 3px;
+
+  color: #888179;
+
+  font-family: Arial, sans-serif;
+
+  font-size: 7px;
+}
+
+.award-content small {
+  margin-top: 2px;
+
+  color: #888179;
+
+  font-size: 7px;
+}
+
+/* =========================
+   BOTTOM
+========================= */
+
+.hero-bottom {
+  width: calc(100% - 76px);
+
+  max-width: 1320px;
+
+  margin: 0 auto;
+
+  display: flex;
+
+  align-items: flex-start;
+
+  justify-content: space-between;
+
+  position: relative;
+
+  z-index: 3;
+}
+
+.stats {
+  width: 51%;
+
+  border-top: 1px solid rgba(80, 70, 60, 0.13);
+
+  padding-top: 25px;
+
+  display: flex;
+
+  gap: 55px;
+}
+
+.stat-item {
+  display: flex;
+
+  flex-direction: column;
+}
+
+.stat-item strong {
+  color: #292725;
+
+  font-family: Georgia, serif;
+
+  font-size: 25px;
+
+  font-weight: 400;
+}
+
+.stat-item span {
+  margin-top: 5px;
+
+  color: #837c73;
+
+  font-family: Arial, sans-serif;
+
+  font-size: 7px;
+
+  letter-spacing: 0.2px;
+}
+
+/* =========================
+   SCROLL
+========================= */
+
+.scroll-text {
+  width: 49%;
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+
+  padding-top: 17px;
+}
+
+.scroll-text span {
+  color: #aaa39a;
+
+  font-size: 7px;
+
+  letter-spacing: 4px;
+}
+
+.scroll-text i {
+  width: 1px;
+  height: 25px;
+
+  margin-top: 7px;
+
+  background: #aaa39a;
+}
+
+/* =====================================================
+   TABLET
+===================================================== */
+
+@media (max-width: 1100px) {
+  .navbar-container,
+  .hero-container,
+  .hero-bottom {
+    width: calc(100% - 50px);
+  }
+
+  .nav-links {
+    gap: 22px;
+
+    margin-right: 35px;
+  }
+
+  .hero h1 {
+    font-size: 65px;
+  }
+
+  .hero-description {
+    width: 380px;
+
+    font-size: 14px;
+  }
+
+  .hero-image {
+    height: 400px;
+  }
+
+  .hero-container {
+    grid-template-columns: 48% 52%;
+  }
+}
+
+/* =====================================================
+   MOBILE / SMALL TABLET
+===================================================== */
+
+@media (max-width: 700px) {
+  .hero {
+    padding-top: 70px;
+
+    min-height: auto;
+
+    padding-bottom: 50px;
+  }
+
+  .hero-container {
+    width: calc(100% - 30px);
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: stretch;
+
+    gap: 30px;
+
+    padding-top: 45px;
+  }
+
+  .hero-content {
+    padding-top: 0;
+  }
+
+  .hero-eyebrow {
+    font-size: 8px;
+
+    letter-spacing: 3px;
+
+    margin-bottom: 25px;
+  }
+
+  .hero h1 {
+    font-size: 55px;
+
+    letter-spacing: -3px;
+
+    line-height: 0.94;
+  }
+
+  .hero h1 span {
+    font-size: 0.92em;
+  }
+
+  .hero-description {
+    width: 100%;
+
+    max-width: 450px;
+
+    margin-top: 30px;
+
+    font-size: 14px;
+
+    line-height: 1.7;
+  }
+
+  .hero-actions {
+    margin-top: 30px;
+
+    gap: 15px;
+  }
+
+  .admission-btn {
+    height: 47px;
+
+    padding: 0 18px;
+
+    font-size: 11px;
+
+    gap: 13px;
+  }
+
+  .story-link {
+    font-size: 11px;
+  }
+
+  .hero-visual {
+    padding: 15px 8px 30px;
+  }
+
+  .hero-image {
+    height: 360px;
+
+    border-radius: 22px;
+  }
+
+  .accreditation-card {
+    top: 30px;
+
+    right: -2px;
+
+    width: 95px;
+    height: 75px;
+
+    padding: 14px;
+  }
+
+  .accreditation-card strong {
+    font-size: 23px;
+  }
+
+  .accreditation-card span {
+    font-size: 7px;
+  }
+
+  .award-card {
+    bottom: 10px;
+
+    left: 0;
+
+    min-width: 145px;
+
+    padding: 10px 13px;
+  }
+
+  .award-icon {
+    width: 27px;
+    height: 27px;
+  }
+
+  .hero-bottom {
+    width: calc(100% - 30px);
+
+    flex-direction: column;
+
+    gap: 30px;
+  }
+
+  .stats {
+    width: 100%;
+
+    gap: 25px;
+
+    padding-top: 20px;
+  }
+
+  .stat-item strong {
+    font-size: 20px;
+  }
+
+  .stat-item span {
+    font-size: 6px;
+  }
+
+  .scroll-text {
+    display: none;
+  }
+
+  .circle-one {
+    width: 500px;
+    height: 500px;
+
+    left: -150px;
+
+    top: 100px;
+  }
+
+  .circle-two {
+    width: 350px;
+    height: 350px;
+
+    left: 100px;
+
+    top: 400px;
+  }
+}
+
+/* =====================================================
+   VERY SMALL MOBILE
+===================================================== */
+
+@media (max-width: 420px) {
+  .hero h1 {
+    font-size: 47px;
+  }
+
+  .hero-description {
+    font-size: 13px;
+  }
+
+  .hero-actions {
+    flex-wrap: wrap;
+  }
+
+  .hero-image {
+    height: 300px;
+  }
+
+  .stats {
+    gap: 15px;
+
+    justify-content: space-between;
+  }
+
+  .stat-item strong {
+    font-size: 18px;
+  }
+}
