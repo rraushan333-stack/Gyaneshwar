@@ -14,12 +14,12 @@ const schoolInformation = [
   {
     id: 2,
     label: "Address",
-    value: "Deoghar, Jharkhand - 814112",
+    value: "Kalyanpur Ps- Bibhutipur Samastipur, Bihar- 848160",
   },
   {
     id: 3,
     label: "Principal Name",
-    value: "Principal Name",
+    value: "Kamini jha",
   },
   {
     id: 4,
@@ -39,12 +39,12 @@ const schoolInformation = [
   {
     id: 7,
     label: "Contact Number",
-    value: "+91 9876543210",
+    value: "+91 9199733237",
   },
   {
     id: 8,
     label: "School Website",
-    value: "https://deogharpublicschool.com/",
+    value: "https://deogharpublicschool.in/",
   },
 ];
 
