@@ -24,7 +24,7 @@ function Contact() {
             <div>
               <label>CAMPUS ADDRESS</label>
 
-              <p>45 Mohanpur Road, Samastipur, Bihar 848101</p>
+              <p>Kalyanpur Ps- Bibhutipur Samastipur, Bihar</p>
             </div>
           </div>
 
@@ -34,7 +34,7 @@ function Contact() {
             <div>
               <label>ADMISSIONS OFFICE</label>
 
-              <p>+91 1234567890</p>
+              <p>+91 9199733237</p>
             </div>
           </div>
 
@@ -44,7 +44,7 @@ function Contact() {
             <div>
               <label>EMAIL</label>
 
-              <p>admissions@school.com</p>
+              <p>deogharpublicschool@gmail.com</p>
             </div>
           </div>
         </div>

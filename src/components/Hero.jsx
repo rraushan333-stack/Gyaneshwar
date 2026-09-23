@@ -77,7 +77,7 @@ function Hero() {
       <div className="hero-bottom">
         <div className="stats">
           <div className="stat-item">
-            <strong>1,200+</strong>
+            <strong>1000+</strong>
             <span>STUDENTS ENROLLED</span>
           </div>
 

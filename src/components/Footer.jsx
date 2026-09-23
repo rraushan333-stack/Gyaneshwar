@@ -10,12 +10,13 @@ function Footer() {
           <Link to="/" className="footer-logo">
             <div className="footer-logo-mark">S</div>
 
-            <span>SchoolLanding</span>
+            <span>Deoghar public school</span>
           </Link>
 
           <p>
-            Shaping curious minds, building confident futures, and creating a
-            community where every learner can come alive.
+            A community of learners, thinkers, and creators. We offer a
+            rigorous, character-driven education that prepares students not just
+            for exams — but for a meaningful life.
           </p>
         </div>
 
@@ -44,16 +45,19 @@ function Footer() {
         <div className="footer-column">
           <h4>CONTACT</h4>
 
-          <span>+91 1234567890</span>
+          <span>+91 9199733237</span>
 
-          <span>admissions@school.com</span>
+          <span>deogharpublicschool@gmail.com</span>
 
-          <span>Samastipur, Bihar</span>
+          <span>Kalyanpur Ps- Bibhutipur Samastipur, Bihar- 848160</span>
         </div>
       </div>
 
       <div className="footer-bottom">
-        <span>© 2026 SchoolLanding. All rights reserved.</span>
+        <span>
+          © 2026 Deoghar Public School | All Rights Reserved | Developed By
+          Students Graph Pvt.Ltd
+        </span>
 
         <div>
           <a href="#">Privacy Policy</a>

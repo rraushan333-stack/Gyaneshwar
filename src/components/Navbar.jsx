@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import "./Navbar.css";
 
 function Navbar() {
@@ -11,38 +12,70 @@ function Navbar() {
   return (
     <header className="navbar">
       <div className="navbar-container">
-        {/* Logo */}
-        <a href="#home" className="logo" onClick={closeMenu}>
+        {/* =========================
+            LOGO
+        ========================= */}
+        <a href="/#home" className="logo" onClick={closeMenu}>
           <div className="logo-mark">
-            <span>S</span>
+            <span>D</span>
           </div>
 
           <span className="logo-text">Deoghar Public School</span>
         </a>
 
-        {/* Desktop Menu */}
+        {/* =========================
+            DESKTOP MENU
+        ========================= */}
         <nav className="nav-links">
-          <a href="#home">Home</a>
+          <a href="/#home" onClick={closeMenu}>
+            Home
+          </a>
 
-          <a href="#about">About Us</a>
+          <a href="/#about" onClick={closeMenu}>
+            About Us
+          </a>
 
-          <a href="#programs">Programs</a>
+          <a href="/#programs" onClick={closeMenu}>
+            Programs
+          </a>
 
-          <a href="#testimonials">Testimonials</a>
+          <a href="/#testimonials" onClick={closeMenu}>
+            Testimonials
+          </a>
 
-          <a href="#contact">Contact</a>
+          {/* =========================
+              MANDATORY DISCLOSURE
+          ========================= */}
+          <Link to="/mandatory-disclosure" onClick={closeMenu}>
+            Mandatory Disclosure
+          </Link>
+
+          <a href="/#contact" onClick={closeMenu}>
+            Contact
+          </a>
         </nav>
 
-        {/* Apply Button */}
-        <a href="#contact" className="apply-btn">
-          Apply Now
+        {/* =========================
+            LOGIN BUTTON
+        ========================= */}
+        <a
+          href="https://studentsgraph.in/login"
+          className="apply-btn"
+          onClick={closeMenu}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Login
         </a>
 
-        {/* Mobile Hamburger */}
+        {/* =========================
+            MOBILE HAMBURGER
+        ========================= */}
         <button
           className={`menu-toggle ${menuOpen ? "open" : ""}`}
           onClick={() => setMenuOpen(!menuOpen)}
           aria-label="Toggle menu"
+          aria-expanded={menuOpen}
         >
           <span></span>
           <span></span>
@@ -50,30 +83,48 @@ function Navbar() {
         </button>
       </div>
 
-      {/* Mobile Menu */}
+      {/* =========================
+          MOBILE MENU
+      ========================= */}
       <div className={`mobile-menu ${menuOpen ? "show" : ""}`}>
-        <a href="#home" onClick={closeMenu}>
+        <a href="/#home" onClick={closeMenu}>
           Home
         </a>
 
-        <a href="#about" onClick={closeMenu}>
+        <a href="/#about" onClick={closeMenu}>
           About Us
         </a>
 
-        <a href="#programs" onClick={closeMenu}>
+        <a href="/#programs" onClick={closeMenu}>
           Programs
         </a>
 
-        <a href="#testimonials" onClick={closeMenu}>
+        <a href="/#testimonials" onClick={closeMenu}>
           Testimonials
         </a>
 
-        <a href="#contact" onClick={closeMenu}>
+        {/* =========================
+            MOBILE MANDATORY DISCLOSURE
+        ========================= */}
+        <Link to="/mandatory-disclosure" onClick={closeMenu}>
+          Mandatory Disclosure
+        </Link>
+
+        <a href="/#contact" onClick={closeMenu}>
           Contact
         </a>
 
-        <a href="#contact" className="mobile-apply" onClick={closeMenu}>
-          Apply Now
+        {/* =========================
+            MOBILE LOGIN
+        ========================= */}
+        <a
+          href="https://studentsgraph.in/login"
+          className="mobile-apply"
+          onClick={closeMenu}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Login
         </a>
       </div>
     </header>
