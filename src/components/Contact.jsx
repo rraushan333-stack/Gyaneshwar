@@ -24,7 +24,9 @@ function Contact() {
             <div>
               <label>CAMPUS ADDRESS</label>
 
-              <p>Kalyanpur Ps- Bibhutipur Samastipur, Bihar</p>
+              <p>
+                Anugrah nagar, Baluahi, Mohiuddinagar ,samastipur Pin-848501
+              </p>
             </div>
           </div>
 
@@ -34,7 +36,7 @@ function Contact() {
             <div>
               <label>ADMISSIONS OFFICE</label>
 
-              <p>+91 9199733237</p>
+              <p>+91 7004352683</p>
             </div>
           </div>
 
@@ -44,7 +46,7 @@ function Contact() {
             <div>
               <label>EMAIL</label>
 
-              <p>deogharpublicschool@gmail.com</p>
+              <p>gyaneshwarniket@gmail.com</p>
             </div>
           </div>
         </div>

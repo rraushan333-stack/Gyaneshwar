@@ -8,9 +8,9 @@ function Footer() {
         {/* Brand */}
         <div className="footer-brand">
           <Link to="/" className="footer-logo">
-            <div className="footer-logo-mark">S</div>
+            <div className="footer-logo-mark">G</div>
 
-            <span>Deoghar public school</span>
+            <span>Gyaneshwar public school</span>
           </Link>
 
           <p>
@@ -45,17 +45,19 @@ function Footer() {
         <div className="footer-column">
           <h4>CONTACT</h4>
 
-          <span>+91 9199733237</span>
+          <span>+91 7004352683</span>
 
-          <span>deogharpublicschool@gmail.com</span>
+          <span>gyaneshwarniket@gmail.com</span>
 
-          <span>Kalyanpur Ps- Bibhutipur Samastipur, Bihar- 848160</span>
+          <span>
+            Anugrah nagar, Baluahi, Mohiuddinagar ,samastipur Pin-848501
+          </span>
         </div>
       </div>
 
       <div className="footer-bottom">
         <span>
-          © 2026 Deoghar Public School | All Rights Reserved | Developed By
+          © 2026 Gyaneshwar Public School | All Rights Reserved | Developed By
           Students Graph Pvt.Ltd
         </span>
 

@@ -17,10 +17,10 @@ function Navbar() {
         ========================= */}
         <a href="/#home" className="logo" onClick={closeMenu}>
           <div className="logo-mark">
-            <span>D</span>
+            <span>G</span>
           </div>
 
-          <span className="logo-text">Deoghar Public School</span>
+          <span className="logo-text">Gyaneshwar Public School</span>
         </a>
 
         {/* =========================

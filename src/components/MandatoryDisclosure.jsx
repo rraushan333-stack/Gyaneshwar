@@ -9,17 +9,17 @@ const schoolInformation = [
   {
     id: 1,
     label: "Name of the School",
-    value: "Deoghar Public School",
+    value: "Gyaneshwar Public School",
   },
   {
     id: 2,
     label: "Address",
-    value: "Kalyanpur Ps- Bibhutipur Samastipur, Bihar- 848160",
+    value: "Anugrah nagar, Baluahi, Mohiuddinagar ,samastipur Pin-848501",
   },
   {
     id: 3,
     label: "Principal Name",
-    value: "Kamini jha",
+    value: "Sanjay kumar singh",
   },
   {
     id: 4,
@@ -29,7 +29,7 @@ const schoolInformation = [
   {
     id: 5,
     label: "School Email ID",
-    value: "deogharpublicschool@gmail.com",
+    value: "gyaneshwarniket@gmail.com",
   },
   {
     id: 6,
@@ -44,7 +44,7 @@ const schoolInformation = [
   {
     id: 8,
     label: "School Website",
-    value: "https://deogharpublicschool.in/",
+    value: "http://mgyaneshwar.in/",
   },
 ];
 
@@ -170,17 +170,17 @@ const teachingStaff = [
   {
     id: 2,
     information: "Total Number of Teachers",
-    details: "28",
+    details: "",
   },
   {
     id: 3,
     information: "PGT",
-    details: "6",
+    details: "",
   },
   {
     id: 4,
     information: "TGT",
-    details: "8",
+    details: "",
   },
   {
     id: 5,
@@ -190,12 +190,12 @@ const teachingStaff = [
   {
     id: 6,
     information: "NTT",
-    details: "6",
+    details: "",
   },
   {
     id: 7,
     information: "Teachers Section Ratio",
-    details: "1:1.5",
+    details: "",
   },
 ];
 
@@ -306,7 +306,7 @@ const schoolInfrastructure = [
   {
     id: 2,
     information: "No. of the Class Rooms",
-    details: "18",
+    details: "",
   },
   {
     id: 3,
@@ -316,12 +316,12 @@ const schoolInfrastructure = [
   {
     id: 4,
     information: "No. of Girls Toilets",
-    details: "3",
+    details: "",
   },
   {
     id: 5,
     information: "No. of Boys Toilets",
-    details: "3",
+    details: "",
   },
 ];
 
