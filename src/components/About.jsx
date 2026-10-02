@@ -34,14 +34,14 @@ function About() {
           </h2>
 
           <p>
-            Founded in 1998 by a group of educators who believed school should
+            Founded in 2023 by a group of educators who believed school should
             be a place of genuine discovery, SchoolLanding has grown into one of
             the region's most respected institutions — known not just for exam
             results, but for the quality of people it graduates.
           </p>
 
           <p>
-            Our 48-acre campus, 120 dedicated faculty members, and decades of
+            Our big campus, 120 dedicated faculty members, and decades of
             refined pedagogy create an environment where every student finds
             their voice, their discipline, and their direction.
           </p>

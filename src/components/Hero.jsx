@@ -13,7 +13,7 @@ function Hero() {
 
         <div className="hero-content">
           <p className="hero-eyebrow">
-            EST. 1998&nbsp; · &nbsp;SHAPING TOMORROW
+            EST. 2023&nbsp; · &nbsp;SHAPING TOMORROW
           </p>
 
           <h1>
@@ -52,9 +52,9 @@ function Hero() {
 
           {/* Accreditation */}
           <div className="accreditation-card">
-            <strong>A+</strong>
+            <strong>331273</strong>
 
-            <span>ACCREDITATION</span>
+            <span>Affiliated to CBSE</span>
           </div>
 
           {/* Award */}
@@ -87,7 +87,7 @@ function Hero() {
           </div>
 
           <div className="stat-item">
-            <strong>26 yrs</strong>
+            <strong>3 yrs</strong>
             <span>OF EXCELLENCE</span>
           </div>
         </div>

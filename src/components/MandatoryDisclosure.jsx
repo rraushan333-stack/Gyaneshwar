@@ -138,6 +138,21 @@ const documents = [
     title: "Students Details",
     link: "/documents/students-details.pdf",
   },
+  {
+    id: 18,
+    title: "Udise Details",
+    link: "/documents/udise.pdf",
+  },
+  {
+    id: 19,
+    title: "Epf Details",
+    link: "/documents/epf.pdf",
+  },
+  // {
+  //   id: 20,
+  //   title: "Udise",
+  //   link: "/documents/udise.pdf",
+  // },
 ];
 
 /* =========================================
@@ -185,7 +200,7 @@ const teachingStaff = [
   {
     id: 5,
     information: "PRT",
-    details: "8",
+    details: "",
   },
   {
     id: 6,
