@@ -56,7 +56,7 @@ const documents = [
   {
     id: 1,
     title: "Societies/Trust/Company Registration Certificate",
-    link: "/documents/trust_deed",
+    link: "/documents/trust_deed.pdf",
   },
   {
     id: 2,
