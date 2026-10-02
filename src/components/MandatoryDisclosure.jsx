@@ -34,12 +34,12 @@ const schoolInformation = [
   {
     id: 6,
     label: "Manager Name",
-    value: "Manager Name",
+    value: "Niket chandak",
   },
   {
     id: 7,
     label: "Contact Number",
-    value: "+91 9199733237",
+    value: "+91 7079943544",
   },
   {
     id: 8,
@@ -56,7 +56,7 @@ const documents = [
   {
     id: 1,
     title: "Societies/Trust/Company Registration Certificate",
-    link: "/documents/registration-certificate.pdf",
+    link: "/documents/trust_deed",
   },
   {
     id: 2,
@@ -126,7 +126,7 @@ const documents = [
   {
     id: 15,
     title: "School Infrastructure",
-    link: "/documents/school-infrastructure.pdf",
+    link: "/documents/builtuparea.pdf",
   },
   {
     id: 16,
@@ -148,11 +148,11 @@ const documents = [
     title: "Epf Details",
     link: "/documents/epf.pdf",
   },
-  // {
-  //   id: 20,
-  //   title: "Udise",
-  //   link: "/documents/udise.pdf",
-  // },
+  {
+    id: 20,
+    title: "Gps Detail",
+    link: "/documents/gps.pdf",
+  },
 ];
 
 /* =========================================
@@ -163,7 +163,7 @@ const videos = [
   {
     id: 1,
     title: "School Campus Video",
-    link: "https://www.youtube.com/",
+    link: "https://youtu.be/bMIhyuilnCU?si=Mm9QmZ4URMWEbBo9",
   },
   {
     id: 2,
